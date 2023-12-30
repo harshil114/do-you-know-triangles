@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav>
+        <ul class="unorderd">
+            <a href="/" class="nav-header border">Fun with Triangles</a>
+            <a href="/area.html" class="links border">Area</a>
+            <a href="/hypotenuse.html" class="links border">Hypotenuse</a>
+            <a href="/quiz.html" class="links border" id="active" >Quiz</a>
+            <a href="/istriangle.html" class="links border">Is Triangle?</a>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Triangle Quiz</h1>
+        <form class="form">
+            <div class="quiz">
+                <p class="label">Q1. Which can be third angle for the triangle when angle1 = 45° and angle2 = 45°?</p>
+                <div class="label">
+                    <label><input type="radio" name="question1" value="45">45°</label>
+                    <label><input type="radio" name="question1" value="90">90°</label>
+                    <label><input type="radio" name="question1" value="180">180°</label>
+                    <label><input type="radio" name="question1" value="67">67°</label>
+                </div>
+
+            </div>
+            <div class="quiz">
+                <p class="label">Q2. How many sides does a Triangle have?</p>
+                <div class="label">
+                    <label><input type="radio" name="question2" value="2">2</label>
+                    <label><input type="radio" name="question2" value="3">3</label>
+                    <label><input type="radio" name="question2" value="4">4</label>
+                    <label><input type="radio" name="question2" value="5">5</label>
+                </div>
+
+            </div>
+            <div class="quiz">
+                <p class="label">Q3. What must be the sum of the lengths of all sides for a triangle to be considered
+                    valid triangle?
+                </p>
+                <div class="label">
+                    <label><input type="radio" name="question3" value="180">180</label>
+                    <label><input type="radio" name="question3" value="190">190</label>
+                    <label><input type="radio" name="question3" value="160">160</label>
+                    <label><input type="radio" name="question3" value="360">360</label>
+                </div>
+
+            </div>
+            <div class="quiz">
+                <p class="label">Q4. In an equilateral triangle, all sides are:</p>
+                <div class="label">
+                    <label><input type="radio" name="question4" value="Equal">Equal</label>
+                    <label><input type="radio" name="question4" value="Unequal">Unequal</label>
+                    <label><input type="radio" name="question4" value="Parallel">Parallel</label>
+                    <label><input type="radio" name="question4" value="Perpendicular">Perpendicular</label>
+                </div>
+
+            </div>
+            <div class="quiz">
+                <p class="label">Q5. If one angle in a triangle is 90 degrees, what type of triangle is it?</p>
+                <div class="label">
+                    <label><input type="radio" name="question5" value="Equilateral">Equilateral</label>
+                    <label><input type="radio" name="question5" value="Acute-angled">Acute-angled</label>
+                    <label><input type="radio" name="question5" value="Right-angled">Right-angled</label>
+                    <label><input type="radio" name="question5" value="Obtuse-angled">Obtuse-angled</label>
+                </div>
+
+            </div>
+        </form>
+        <button id="btn">Submit</button>
+        <div id="output"></div>
+    </div>
+
+    <footer>
+        <div class="footer-header">Created by: Harshil Vispute</div>
+        <ul class="unorderd">
+            <li class="li-items">
+                <a class="link" href="https://github.com/harshil114"><img src="img/github.svg" alt="">
+                </a>
+            </li>
+            <li class="li-items">
+                <a class="link" href="https://twitter.com/harshilvispute"><img src="/img/twitter.svg " alt="">
+                </a>
+            </li>
+            <li class="li-items">
+                <a class="link" href="https://www.linkedin.com/in/harshil-vispute-06a47a274/"><img
+                        src="img/linkedin.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

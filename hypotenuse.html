@@ -4,37 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Triangle</title>
+    <title>Hypotenuse</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
 </head>
 
 <body>
-
     <nav>
         <ul class="unorderd">
             <a href="/" class="nav-header border">Fun with Triangles</a>
             <a href="/area.html" class="links border">Area</a>
-            <a href="/hypotenuse.html" class="links border">Hypotenuse</a>
+            <a href="/hypotenuse.html" class="links border" id="active" >Hypotenuse</a>
             <a href="/quiz.html" class="links border">Quiz</a>
-            <a href="/istriangle.html" class="links border" id="active" >Is Triangle?</a>
+            <a href="/istriangle.html" class="links border">Is Triangle?</a>
+
         </ul>
     </nav>
     <div class="container">
-        <h1>Is Triangle?</h1>
+        <h1>Hypotenuse</h1>
 
-        <label for="angle1" class="label">angle1</label>
+        <label class="label">Enter a=</label>
         <input type="number" class="angle-input">
 
-        <label for="angle2" class="label">angle2</label>
-        <input type="number" class="angle-input">
-
-        <label for="angle3" class="label">angle3</label>
+        <label class="label">Enter b=</label>
         <input type="number" class="angle-input">
 
         <button id="btn">Calculate</button>
+
         <div id="output"></div>
+
     </div>
 
     <footer>
@@ -55,7 +54,9 @@
             </li>
         </ul>
     </footer>
-    <script src="istriangle.js"></script>
+    <script src="hypotenuse.js"></script>
+
+
 </body>
 
 </html>

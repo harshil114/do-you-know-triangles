@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@500;600;700&family=Exo+2:wght@500;600;700&family=Roboto+Mono:wght@500;700&display=swap');
+
+:root {
+    --background: #023047;
+    --primary: #219ebc;
+    --font: white;
+    --links:#8ecae6;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--font);
+    margin: 0;
+    font-family: 'Cormorant Infant', serif;
+}
+
+nav {
+    background-color: var(--primary);
+    padding: 0.5rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.question-container {
+    border: 2px solid var(--primary);
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    width: 60%;
+}
+
+.label {
+    text-align: left;
+    font-size: 1.5rem;
+}
+#active{
+    font-weight: bolder;
+    /* font-size: 9rem; */
+}
+
+.angle-input,
+#btn {
+    display: block;
+    width: 90vh;
+    padding: 0.2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Cormorant Infant', serif;
+
+}
+.quiz{
+    border: 2px solid var(--primary);
+    margin-top: 1rem;
+    padding:1rem;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2.9px solid var(--font);
+}
+#btn {
+    background-color: var(--primary);
+    color: var(--font);
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+#output {
+    font-size: 2rem;
+}
+.nav-header{
+   text-decoration-line: none;
+   color: var(--font);
+   font-size: 2.5rem;
+   font-weight: bold;  
+}
+.mainbody{
+    padding: 1rem;
+}
+.links{
+    text-decoration-line:none ;
+    float: right;
+    color: var(--font);
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+.homepage-link{
+    text-decoration-line: none;
+    color: var(--links);
+    text-align: center;
+}
+.link-header{
+    text-align: center;
+}
+footer{
+    margin: 2rem;
+    text-align: center;        
+}
+.footer-header{
+    font-size: 2rem;   
+}
+.li-items{
+    display: inline;
+    padding: 1rem;
+    
+}
